@@ -3,7 +3,6 @@
     width="100%"
     :src="src"
     type="m3u8"
-    autoplay
     :title="playList[tag] ? playList[tag].title : ''"
     @ended="playEnd"
   ></video-play>
