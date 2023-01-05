@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font: 14px/1 "微软雅黑";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+  /* font-size: 100%; */
+}
+p,
+dl,
+dd {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  /* 解决图片下间隙问题 */
+  vertical-align: top;
+  /* 清除IE中图片加超链接时的外边框 */
+  border: none;
+}
+a {
+  text-decoration: none;
+  /* 超链接颜色——根据设计稿定义 */
+  color: #333;
+}
+
+strong,
+b,
+th {
+  font-weight: normal;
+}
+em,
+i {
+  font-style: normal;
+}
+/* del {
+  text-decoration: none;
+} */
+table {
+  /* 相邻边框折叠 */
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: 0;
+}
+input {
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+input,
+textarea {
+  /* 清除轮廓线——获取焦点状态时的外部边框 */
+  outline: none;
+}
+textarea {
+  /* 禁止用户重置元素大小 */
+  resize: none;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
